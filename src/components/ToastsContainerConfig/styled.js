@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Button = styled.button`
-  height: 60px;
+  height: 50px;
   font-size: inherit;
 `;
 
@@ -19,9 +19,9 @@ export const ColorInput = styled.input.attrs({ type: 'color' })``;
 
 export const Content = styled.div`
   display: flex;
-  width: 250px;
+  width: 240px;
   gap: 10px;
-  margin-top: 100px;
+  margin-top: 80px;
   font-size: 18px;
   flex-direction: column;
 `;

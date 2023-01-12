@@ -1,13 +1,13 @@
 {
-  "name": "calculator",
-  "version": "0.2.0",
+  "name": "toast-lib-usage-example",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node server.js",
     "dev": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js",
     "test": "react-scripts test",
-    "cypress": "cypress open",
+    "test:cypress": "cypress open",
     "eject": "react-scripts eject",
     "lint": "eslint ./src",
     "lint:fix": "eslint \"./src/**/*.js\" --fix"

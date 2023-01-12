@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {
   ANIMATION_VARIANTS,
+  THEME_VARIANTS,
   TOAST_POSITIONS,
   TOAST_VARIANTS,
   ToastsContainer,
@@ -34,6 +35,7 @@ export function ToastsContainerConfig({ id, position, onChangePosition }) {
     indent,
     toastsGap,
     customColorConfig,
+    theme,
   } = toastConfig;
 
   return (
@@ -93,6 +95,18 @@ export function ToastsContainerConfig({ id, position, onChangePosition }) {
               return (
                 <Option key={variant} value={variant}>
                   {variant}
+                </Option>
+              );
+            })}
+          </Select>
+        </Label>
+        <Label>
+          theme variant:
+          <Select name="theme" value={theme} onChange={onChangeHandler}>
+            {Object.values(THEME_VARIANTS).map((themeVariant) => {
+              return (
+                <Option key={themeVariant} value={themeVariant}>
+                  {themeVariant}
                 </Option>
               );
             })}
