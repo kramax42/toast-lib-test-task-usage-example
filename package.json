@@ -13,7 +13,6 @@
     "lint:fix": "eslint \"./src/**/*.js\" --fix"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",
     "@testing-library/user-event": "^14.1.1",
@@ -22,10 +21,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.1",
-    "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.6",
-    "toast-lib-react-kra": "^0.0.1",
+    "toast-lib-react-kra": "^0.0.3",
     "web-vitals": "^2.1.0"
   },
   "devDependencies": {

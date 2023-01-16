@@ -1,7 +1,7 @@
 import { defaultToastConfig } from '@/constants/default-toast-config';
 
 const containerId = 1;
-const MAX_DISPLAYING_TOASTS = 4;
+const MAX_DISPLAYING_TOASTS = 3;
 
 describe('Toasts e2e', () => {
   beforeEach(() => {
