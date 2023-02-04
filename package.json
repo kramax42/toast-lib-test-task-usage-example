@@ -23,7 +23,7 @@
     "react-redux": "^8.0.1",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.6",
-    "toast-lib-react-kra": "^0.0.3",
+    "toast-lib-react-kra": "^0.0.42",
     "web-vitals": "^2.1.0"
   },
   "devDependencies": {

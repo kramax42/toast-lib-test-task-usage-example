@@ -9912,10 +9912,10 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-toast-lib-react-kra@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/toast-lib-react-kra/-/toast-lib-react-kra-0.0.3.tgz#3677643fb7631b0536f352699128c636c597b8a7"
-  integrity sha512-deIDcFbkkQq0KiJ6ogXZpD/S/Nxg4ZhD9wbwg8JVXOMzUQf8YJystr1yZ3ByEKxsqubxqMkqZNFXU7lx5v5H2g==
+toast-lib-react-kra@^0.0.42:
+  version "0.0.42"
+  resolved "https://registry.yarnpkg.com/toast-lib-react-kra/-/toast-lib-react-kra-0.0.42.tgz#fb8f0f84f0ae7538419fee51fddb6c39ab557334"
+  integrity sha512-i8dIuq2aKVxAKpHv+hwbzVuqO7KuHvbnp+mkeoDTwNTADutkiRkwjMQL27yT2BiUX80vppcF5vHkT7QodFFtnQ==
 
 toidentifier@1.0.1:
   version "1.0.1"

@@ -140,7 +140,7 @@ export function ToastsContainerConfig({ id, position, onChangePosition }) {
           {'background color: '}
           <ColorInput
             name="backgroundColor"
-            value={customColorConfig.background}
+            value={customColorConfig.background || ''}
             onChange={onChangeHandler}
           />
         </Label>
@@ -148,7 +148,7 @@ export function ToastsContainerConfig({ id, position, onChangePosition }) {
           {'text color: '}
           <ColorInput
             name="textColor"
-            value={customColorConfig.text}
+            value={customColorConfig.text || ''}
             onChange={onChangeHandler}
           />
         </Label>
@@ -156,7 +156,7 @@ export function ToastsContainerConfig({ id, position, onChangePosition }) {
           {'icon color: '}
           <ColorInput
             name="iconColor"
-            value={customColorConfig.icon}
+            value={customColorConfig.icon || ''}
             onChange={onChangeHandler}
           />
         </Label>
@@ -164,7 +164,7 @@ export function ToastsContainerConfig({ id, position, onChangePosition }) {
           {'progressbar color: '}
           <ColorInput
             name="progressBarColor"
-            value={customColorConfig.progressBar}
+            value={customColorConfig.progressBar || ''}
             onChange={onChangeHandler}
           />
         </Label>
